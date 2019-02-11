@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/image"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="166dp" />
+    <TextView
+        android:id="@+id/text1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Brazilian football tour * Rio West side * The snacks tour * The coffee valley tour "
+       android:textSize="20sp"/>
+
+    <View android:id="@+id/separator"
+        android:background="#000000"
+        android:layout_width = "fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/text1"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GUSTAVO FARO"
+        android:layout_below="@id/separator"
+        android:gravity="center_horizontal"
+        android:textColor="#FF0000"
+        android:textSize="45sp"
+        android:textFontWeight="2"
+        android:layout_margin="25dp"
+        android:id="@+id/text3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+98663-1684"
+        android:textColor="#FF0"
+        android:textSize="40sp"
+        android:layout_below="@id/text3"
+        android:layout_marginLeft="45sp"
+        android:id="@+id/phoneno"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email:gustavo@touristguidinrio.com"
+        android:layout_below="@id/phoneno"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:id="@+id/emailid"/>
+
+    <View android:id="@+id/separator2"
+        android:background="#000000"
+        android:layout_width = "fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/emailid"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.touristguidinrio.com"
+        android:textSize="40sp"
+        android:layout_below="@id/separator2"
+        android:layout_marginTop="40dp"
+        android:textColor="#FFF"/>
+
+
+</RelativeLayout>
